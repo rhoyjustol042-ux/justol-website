@@ -64,3 +64,11 @@ h3 {
     padding: 8px 0;
     border-bottom: 1px solid #C8A27A;
 }
+.gallery-images img {
+    width: 200px;
+    height: 150px;
+    object-fit: cover;
+}
+.review {
+    font-style: italic
+}
