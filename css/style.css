@@ -1,9 +1,8 @@
 body {
     background-color: #F6F2EA;
 }
-.center-img {
-  display: block;
-  margin: 0 auto;
-  width: 400;
-  height: 400;
+.logo {
+    display: block;
+    margin: 0 auto;
+    width: 250px;
 }
