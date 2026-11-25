@@ -37,3 +37,30 @@ nav a:hover {
     margin: 0 auto;
     width: 250px;
 }
+section {
+    padding: 50px 20px;
+    text-align: center;
+}
+
+h3 {
+    font-family: 'Playfair Display', serif;
+    color: #8A9A5B;
+}
+
+.menu-category {
+    max-width: 400px;
+    margin: 0 auto 30px;
+    text-align: left;
+}
+
+.menu-category ul {
+    list-style: none;
+    padding: 0;
+}
+
+.menu-category li {
+    display: flex;
+    justify-content: space-between;
+    padding: 8px 0;
+    border-bottom: 1px solid #C8A27A;
+}
