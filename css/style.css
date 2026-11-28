@@ -13,6 +13,9 @@ h1, h2 {
 header {
     text-align: center;
     padding: 20px;
+    top: 0;
+    position:sticky;
+    background-color: #F8F1E7;
 }
 
 nav {
@@ -71,4 +74,44 @@ h3 {
 }
 .review {
     font-style: italic
+}
+.inquiry-form {
+    max-width: 400px;
+    margin: 0 auto;
+    text-align: left;
+}
+
+.inquiry-form label {
+    display: block;
+    margin-top: 12px;
+    font-weight: 600;
+}
+
+.inquiry-form input,
+.inquiry-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #C8A27A;
+    border-radius: 8px;
+    font-family: inherit;
+    box-sizing: border-box;
+}
+
+.inquiry-form button {
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+}
+
+#contact a {
+    color: #8A9A5B;
+    font-weight: 600;
+}
+
+footer {
+    background-color: #3E2723;
+    color: #F8F1E7;
+    text-align: center;
+    padding: 20px;
 }
